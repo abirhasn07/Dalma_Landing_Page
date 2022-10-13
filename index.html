@@ -16,13 +16,20 @@
 		<!-- FONT AWESOME ICONS  -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- FONT AWESOME ICONS  -->
+
+			<!-- ANIMATION LIBRARY -->
+			<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
+			<!-- ANIMATION LIBRARY -->
 		<title>Dalma</title>
 	</head>
 	<body class="font-sans">
 		<!-- NAVBAR SECTION  -->
-		<nav class="h-16 w-full bg-black flex justify-between px-4 items-center">
+		<nav class="h-16 w-full bg-black flex justify-between px-4 items-center md:px-16 md:min-h-[100px] md:pt-5">
 			<img src="/dama_logo.svg" alt="Dalma logo" class="w-20" />
-			<button class="bg-[#B6FF9C] w-20 p-0 h-6 rounded-sm font-medium">
+			<button class="bg-[#B6FF9C] w-20 p-0 h-8 rounded-sm font-medium md:rounded-full md:w-[200px]">
 				Sign Up
 			</button>
 		</nav>
@@ -31,12 +38,12 @@
 			<!-- HERO SECTION  -->
 
 			<section
-				class="bg-black py-8 flex flex-col w-[100%] mx-auto justify-center items-center"
+				class="bg-black py-8 flex flex-col w-[100%] mx-auto justify-center items-center md:min-h-[100vh] relative"
 			>
 				<div class="w-[90%]">
-					<h1 class="text-3xl capitalize font-black text-center text-white">
+					<h1 class="text-3xl capitalize font-black text-center text-white md:text-6xl animate__fadeInDown" >
 						Build your very own
-						<span class="bg-[#B6FF9C] rounded-full px-1 text-gray-900">
+						<span class="bg-[#B6FF9C] rounded-full px-1 text-gray-900 md:px-4 md:bg-transparent md:border-4 md:uppercase md:border-[#B6FF9C] md:text-white">
 							SaaS
 						</span>
 						website with Dalma
@@ -60,6 +67,11 @@
 						</button>
 					</div>
 				</div>
+
+				<!-- GRADIENT -->
+			
+				
+				<!-- GRADIENT -->
 			</section>
 			<!-- HERO SECTION  -->
 
@@ -76,80 +88,86 @@
 			</section>
 			<!-- HERO MAIN IMG SECTION  -->
 			<!-- COOL FEATURES SECTION  -->
-			<section class="bg-black">
+			<section class="bg-black relative">
 				<div>
-					<h2 class="text-white text-2xl font-bold text-center">
+					<h2 class="text-white text-2xl font-bold text-center md:text-4xl capitalize">
 						Cool features
 					</h2>
 					<p class="text-white text-center">Lorem ipsum dolor sit amet.</p>
 				</div>
-				<div class="flex justify-center items-center flex-wrap gap-4 w-[90%] mx-auto">
-					<div class="flex bg-[#1A1A1A] flex-wrap items-center mt-5 rounded-lg flex-col-reverse">
-						<div class="py-4 text-center w-[90%] mx-auto">
+				<div class="flex justify-center items-center flex-wrap gap-4 w-[90%] mx-auto md:gap-2">
+					<div class="flex bg-[#1A1A1A] flex-wrap items-center mt-5 rounded-lg flex-col-reverse  md:w-[48%] md:flex-row">
+						<div class="py-4 text-center w-[90%] mx-auto md:w-[45%]">
 							<h3 class="text-white text-2xl font-bold text-center">
 								Credit sending
 							</h3>
-							<p class="text-white text-center">
+							<p class="text-white text-center text-[12px]">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
 							<button
-								class="bg-[#B6FF9C] w-52 h-10 rounded-full font-semibold text-sm my-2"
+								class="bg-[#B6FF9C] w-52 h-10 rounded-full font-semibold text-sm my-2 md:w-36"
 							>
 								Explore Now
 							</button>
 						</div>
-						<img src="/cool_features (1).png" alt="" class="object-contain w-[90%] mx-auto h-[450px] rounded-2xl" />
+						<img src="/cool_features (1).png" alt="" class="object-contain w-[90%] mx-auto h-[450px] rounded-2xl md:w-[45%]" />
 					</div>
 
 
-
-					<div class="flex bg-[#1A1A1A] flex-wrap items-center mt-5 rounded-lg flex-col-reverse">
-						<div class="py-4 text-center w-[90%] mx-auto">
+					<!-- 2222222 -->
+					<div class="flex bg-[#1A1A1A] flex-wrap items-center mt-5 rounded-lg flex-col-reverse  md:w-[48%] md:flex-row">
+						<div class="py-4 text-center w-[90%] mx-auto md:w-[45%]">
 							<h3 class="text-white text-2xl font-bold text-center">
 								Scheduling
 							</h3>
-							<p class="text-white text-center">
+							<p class="text-white text-center text-[12px]">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							</p>
 							<button
-								class="bg-[#B6FF9C] w-52 h-10 rounded-full font-semibold text-sm my-2"
+								class="bg-[#B6FF9C] w-52 h-10 rounded-full font-semibold text-sm my-2 md:w-36"
 							>
 								Explore Now
 							</button>
 						</div>
-						<img src="/cool_features (2).png" alt="" class="object-contain w-[90%] mx-auto h-[450px] rounded-2xl" />
+						<img src="/cool_features (2).png" alt="" class="object-contain w-[90%] mx-auto h-[450px] rounded-2xl md:w-[45%]" />
 					</div>
+
+
+					
 					
 				</div>
+
+				
 			</section>
 			<!-- COOL FEATURES SECTION  -->
 			<!-- SOFTWARE FEATURES SECTION  -->
-			<section class="bg-black ">
-				<div>
-					<div class="py-8">
+			<section class="bg-black">
+				<div class="flex flex-row flex-wrap">
+					
+					<div class="py-8 md:w-[80%] mx-auto md:flex items-center">
 						<!-- info  -->
-						<div class="w-[90%]  mx-auto">
-							<p class="text-[#B6FF9C]">Software feature</p>
-							<h3 class="text-white text-2xl capitalize font-bold">Build quickly and easily with Dalma</h3>
-							<span class="text-white text-sm leading-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend senectus.</span>
-						</div>
-						<!-- info  -->
-						<!-- img  -->
-						<div class="w-[90%] mx-auto mt-4">
-							<img src="/softwear.png" alt="data-chart">
-						</div>
-						<!-- img  -->
-					</div>
-					<div class="py-8">
-						<!-- info  -->
-						<div class="w-[90%]  mx-auto">
+						<div class="w-[90%]  mx-auto md:w-[45%]">
 							<p class="text-[#B6FF9C]">Software feature</p>
 							<h3 class="text-white text-2xl capitalize font-bold">Create stunning websites with Dalma</h3>
 							<span class="text-white text-sm leading-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend senectus.</span>
 						</div>
 						<!-- info  -->
 						<!-- img  -->
-						<div class="w-[90%] mx-auto mt-4">
+						<div class="w-[90%] mx-auto mt-4 md:w-[45%]">
+							<img src="/softwear.png" alt="data-chart">
+						</div>
+						<!-- img  -->
+					</div>
+					<div class="py-8 md:w-[80%] mx-auto md:flex items-center">
+						<!-- info  -->
+						<div class="w-[90%]  mx-auto md:w-[45%]">
+							<p class="text-[#B6FF9C]">Software feature</p>
+							<h3 class="text-white text-2xl capitalize font-bold">Create stunning websites with Dalma</h3>
+							<span class="text-white text-sm leading-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend senectus.</span>
+						</div>
+						<!-- info  -->
+						<!-- img  -->
+						<div class="w-[90%] mx-auto mt-4 md:w-[45%]">
 							<img src="/softwear2.png" alt="data-chart">
 						</div>
 						<!-- img  -->
@@ -159,10 +177,10 @@
 			</section>
 			<!-- SOFTWARE FEATURES SECTION  -->
 			<!-- TESTIMONIAL SECTION  -->
-			<section>
-				<div>
+			<section class="py-8">
+				<div class="md:flex w-[90%] mx-auto">
 					<!-- img  -->
-					<div class="bg-[#B6FF9C] py-8">
+					<div class="bg-[#B6FF9C] py-8 md:w-[40%] md:rounded rounded">
 						<!-- info -->
 						<div>
 							<h3 class="text-black text-xl capitalize font-semibold w-[90%] mx-auto">“Working with Dalma has been a breeze from the very start.”</h3>
@@ -181,7 +199,7 @@
 					<!-- img  -->
 					<!-- info  -->
 					<div>
-<div class="w-[90%] mx-auto">
+<div class="w-[90%] mx-auto mt-3">
 	<div class="flex justify-start gap-3 my-2">
 		<span class="text-[#B6FF9C]"><i class="fa-solid fa-star"></i></span>
 		<span class="text-[#B6FF9C]"><i class="fa-solid fa-star"></i></span>
@@ -225,6 +243,90 @@
 				</div>
 			</section>
 			<!-- TESTIMONIAL SECTION  -->
+			<!-- OUR SERVICE SECTION  -->
+			<section>
+				<div class="text-white text-center w-[90%] mx-auto">
+					<h2 class="text-2xl capitalize font-semibold">What sets us apart</h2>
+				</div>
+
+				<!-- SERVICE CARDS -->
+				<div class="flex justify-between items-center flex-col md:flex-row md:w-[90%] mx-auto">
+
+					<div class="text-white w-[90%] mx-auto flex flex-col items-center min-h-[200px] border border-[#B6FF9C] rounded-md justify-center mt-6 md:w-[24%] md:text-center">
+						<img src="/card-1.png" alt="gorgeous design" class="bg-[#B6FF9C] rounded-full w-[70px]">
+						<h4 class="text-xl capitalize font-semibold">Gorgeous design</h4>
+						<span class="text-[12px] block text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					</div>
+					<div class="text-white w-[90%] mx-auto flex flex-col items-center min-h-[200px] border border-[#B6FF9C] rounded-md justify-center mt-6 md:w-[24%]">
+						<img src="/card-2.png" alt="gorgeous design" class="bg-[#B6FF9C] rounded-full w-[70px]">
+						<h4 class="text-xl capitalize font-semibold">Fully customizable</h4>
+						<span class="text-[12px] block text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					</div>
+					<div class="text-white w-[90%] mx-auto flex flex-col items-center min-h-[200px] border border-[#B6FF9C] rounded-md justify-center mt-6 md:w-[24%]">
+						<img src="/card-3.png" alt="gorgeous design" class="bg-[#B6FF9C] rounded-full w-[70px]">
+						<h4 class="text-xl capitalize font-semibold">Adaptability</h4>
+						<span class="text-[12px] block text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					</div>
+					<div class="text-white w-[90%] mx-auto flex flex-col items-center min-h-[200px] border border-[#B6FF9C] rounded-md justify-center mt-6 md:w-[24%]">
+						<img src="/card-4.png" alt="gorgeous design" class="bg-[#B6FF9C] rounded-full w-[70px]">
+						<h4 class="text-xl capitalize font-semibold">Speed optimized</h4>
+						<span class="text-[12px] block text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+					</div>
+				</div>
+			</section>
+			<!-- OUR SERVICE SECTION  -->
+			<!-- OUR  SOFTWARE FEATURE  -->
+			<section class="bg-black py-8">
+			
+					
+					<div class="mt-5 py-5 rounded-lg w-[90%] mx-auto bg-[#252525]  items-center flex flex-col-reverse md:flex-row">
+						<!-- info  -->
+						<div class=" mx-auto p-2 md:w-[40%]">
+							<p class="text-[#B6FF9C] capitalize font-semibold">Software feature</p>
+							<h3 class="text-white text-2xl capitalize font-bold">Create stunning websites with Dalma</h3>
+							<span class="text-white text-sm leading-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at eleifend senectus.</span>
+							<div class="mt-4 text-center md:flex items-center gap-2">
+								<button
+									class="bg-[#B6FF9C] w-52 h-10 rounded-full font-semibold text-sm my-2"
+								>
+									Explore Now
+								</button>
+								<button
+									class="w-52 h-10 rounded-full font-semibold bg-slate-600 text-white text-sm"
+								>
+									About Us
+								</button>
+							</div>
+						</div>
+						<!-- info  -->
+						<!-- img  -->
+						<div class=" mx-auto mt-4 md:w-[40%]">
+							<img src="/features.png" alt="data-chart" class="w-full object-contain">
+						</div>
+						<!-- img  -->
+					</div>
+				
+
+			</section>
+			<!-- OUR SOFTWARE FEATURE -->
+
+			<!-- NEWSLETTER SECTION  -->
+			<section>
+				<div class="bg-[#252525] w-[90%] mx-auto p-4 rounded">
+					<img src="" alt="">
+					<h2 class="text-white text-lg text-center leading-none md:text-3xl capitalize font-semibold md:text-center md:w-[80%] mx-auto">Learn More About us by joining our newsletter </h2>
+					
+					<form action="" class=" w-full md:w-[70%] mx-auto flex justify-center gap-2 flex-col md:flex-row md:mt-5 mt-4">
+						<input type="email"  required placeholder="enter your email" class="px-6 py-2 rounded-3xl md:w-[300px] focus:outline-hidden outline-[#B6FF9C] ">
+						<input type="submit" value="subscribe" class="bg-[#B6FF9C] px-4 py-2 rounded-3xl text-black cursor-pointer" >
+					</form>
+				</div>
+			</section>
+			<!-- NEWSLETTER SECTION  -->
+
+			
+
+
 		</main>
 		<script type="module" src="/main.js"></script>
 	</body>
